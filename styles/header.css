@@ -38,5 +38,7 @@
 }
 
 .lista-menu__link {
-    background: var();
+    background: var(--azul-degrade);
+    background-clip: text;
+    text-transform: uppercase;
 }
