@@ -1,4 +1,7 @@
-@import url("./styles/header.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
 :root{
     --preto: #000000;
     --font-size: 'Poppin', 'sans serif';
@@ -10,6 +13,6 @@
 
 body{
     background-color: var(--branco);
-    color: var(--branco);
-    font-size: var(--font-size);
+    color: var(--preto);
+    font-size: var(--fonte-principal);
 }
